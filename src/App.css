@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
 }
 
 .App-logo {
@@ -14,14 +16,70 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  min-height: 30vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.User-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.User-card {
+  display: flex;
+  flex-direction: row;
+  background-color: aliceblue;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 40vw;
+  height: 10vh;
+  border-radius: 10px;
+  text-decoration: none;
+  color: gray;
+}
+
+
+.User-number {
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+
+.User-image-landscape {
+  display: inline-block;
+  position: relative;
+  width: 9vh;
+  height: 9vh;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.User-image-landscape img {
+  width: auto;
+  height: 100%;
+  margin-left: -4.5vh;
+}
+
+.User-image-portrait {
+  position: relative;
+  width: 9vh;
+  height: 9vh;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.User-image-portrait img {
+  width: 100%;
+  height: auto;
+}
+
+.User-name {
+  padding-left: 1vw;
 }
 
 .App-link {
