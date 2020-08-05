@@ -1,40 +1,54 @@
 .Submission-page {
-    background-color: #282c34;
+  background-color: #282c34;
 }
 
 .pad {
-    padding-top: 2vh;
+  padding-top: 2vh;
 }
 
 h1 {
-    color: white;
+  color: white;
 }
 
 .Submission button {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .Submission-list {
-    margin-top: 0vh;
-    flex-direction: column;
-    align-items: center;
-    display: flex;
+  margin-top: 0vh;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
 }
 
 .Submission-item {
-    height: 10vh;
-    width: 40vw;
-    background-color: gray;
-    margin-bottom: 10px;
-    margin-top: 0px;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+  height: 10vh;
+  width: 40vw;
+  background-color: gray;
+  margin-bottom: 10px;
+  margin-top: 0px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .Submission-link {
-    color: aqua;
-    text-decoration: none;
+  color: aqua;
+  text-decoration: none;
+}
+
+.Submission-name {
+  padding-left: 1vw;
+  display: flex;
+  justify-content: start;
+  flex: 5
+}
+ 
+.Submission-data {
+  display: flex;
+  flex: 2;
+  flex-direction: row;
+  justify-content: space-around;
 }
